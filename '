@@ -1,0 +1,14 @@
+call plug#begin('~/.config/nvim/autoload/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'preservim/nerdcommenter'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'jiangmiao/auto-pairs'
+" Snippets
+Plug 'honza/vim-snippets'
+
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+call plug#end()
+
